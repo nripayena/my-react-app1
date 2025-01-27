@@ -57,7 +57,7 @@ function Home() {
                     <div className="cards-container flex flex-wrap justify-between  
                     justify-evenly gap-10 p-4 w-full max-w-screen-lg mx-auto">
                             <Card image={y2k} title="Y2k" page="y2k" content="Velvet, vinyl, and a touch of millennium magic." />
-                            <Card image={oldmoney} title="Old Money" page="oldMoney" content="Old money doesn’t chase trends; it sets traditions." />
+                            <Card image={oldMoney} title="Old Money" page="oldmoney" content="Old money doesn’t chase trends; it sets traditions." />
                             <Card image={darkfem} title="Dark Feminine" page="darkfem" content="I don't need your approval, I approve of myself." />
                             <Card image={cottagecore} title="Cottage Core" page="cottagecore"content="Sundays are for slow walks and warm tea." /> 
                         </div>
