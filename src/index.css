@@ -4,19 +4,14 @@
 
 @font-face {
   font-family: "WinstonScriptRegular";
-  src: url("/src/assets/fonts/WinstonScriptRegular.ttf") format("truetype");
+  src: url("/fonts/WinstonScriptRegular.ttf") format("truetype");
 }
-@font-face {
-  font-family: "TruflaWords";
-  src: url("/src/assets/fonts/TruflaWords.ttf") format("truetype");
-}
+
 
 .font-custom-h {
   font-family: "WinstonScriptRegular", sans-serif;
 }
-.font-custom-body {
-  font-family: "TruflaWords", sans-serif;
-}
+
 @keyframes wave {
   0% {
     transform: translateY(0);
