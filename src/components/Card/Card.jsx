@@ -24,7 +24,8 @@ const Card = ({ title, page, content, image }) => {
 const StyledWrapper = styled.div`
   .card {
     position: relative;
-    width: 300px;
+    width: 100%; /* Make card take full width of container */
+    max-width: 300px; /* Max width for large screens */
     height: 200px;
     border-radius: 10px;
     display: flex;
@@ -35,6 +36,7 @@ const StyledWrapper = styled.div`
     box-shadow: 0 0 0 5px #ffffff80;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     background-color: #d4a373;
+    margin: 10px; /* Added margin for spacing */
   }
 
   .card svg {
