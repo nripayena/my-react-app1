@@ -1,8 +1,8 @@
 import React from 'react'
 
-import y2k from "/src/assets/Card/y2k.jpeg"
+import y2k from "/src/assets/Card/y2k.jpg"
 import oldMoney from "/src/assets/Card/oldMoney.jpg"
-import darkfem from "/src/assets/Card/darkfem.jpeg"
+import darkfem from "/src/assets/Card/darkfem.jpg"
 import cottagecore from "/src/assets/Card/cottagecore.jpg"
 import Card from '../Card/Card';
 import Footer from '../Footer/Footer';
