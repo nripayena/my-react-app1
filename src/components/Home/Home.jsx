@@ -23,7 +23,8 @@ function Home() {
                         <img src={Fairy} className='hidden lg:block w-32 h-32 opacity-60' alt="My Local Image" />
                     </div>
                    
-                    <h1 className="text-white pt-10 lg:pr-12 text-4xl  break-words sm:text-5xl md:text-6xl font-bold text-shadow transform transition-all duration-300 hover:scale-110 hover:text-black max-w-full overflow-hidden break-words text-center">
+                    <h1 className="text-white pt-10 lg:pr-12 text-4xl  break-words sm:text-5xl md:text-6xl font-bold text-shadow 
+                    transform transition-all duration-300 hover:scale-110 hover:text-black max-w-full overflow-hidden break-words text-center">
                         The Fashion Fairy
                     </h1>
                    
@@ -33,7 +34,9 @@ function Home() {
               
                 <div className="flex items-center justify-center px-4 text-center min-h-screen w-full">
                     <p className="font-custom-h text-slate-900 text-lg   
-                    max-w-xl sm:text-lg md:text-lg transform transition-all duration-300 hover:scale-110 hover:text-black">
+                    max-w-xl sm:text-lg md:text-lg 
+                    ">
+                        
                         In the heart of Everglow, a town where fashion was an afterthought, lived Lina, a girl with an extraordinary gift—she was a Fashion Fairy.<br />
                         With a flick of her hand and a sprinkle of shimmering fabric dust, she could transform the plainest outfits into breathtaking ensembles.<br />
                         But Lina’s magic wasn’t just about clothes; it was about confidence.<br />
@@ -59,7 +62,7 @@ function Home() {
                             <Card image={y2k} title="Y2k" page="y2k" content="Velvet, vinyl, and a touch of millennium magic." />
                             <Card image={oldMoney} title="Old Money" page="oldmoney" content="Old money doesn’t chase trends; it sets traditions." />
                             <Card image={darkfem} title="Dark Feminine" page="darkfem" content="I don't need your approval, I approve of myself." />
-                            <Card image={cottagecore} title="Cottage Core" page="cottagecore"content="Sundays are for slow walks and warm tea." /> 
+                            <Card image={cottagecore} title="Coquette Core" page="cottagecore"content="Sundays are for slow walks and warm tea." /> 
                         </div>
                 </div>
                 <div className='m-4 p-4'>

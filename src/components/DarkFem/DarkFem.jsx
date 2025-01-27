@@ -24,7 +24,7 @@ export default function DarkFem() {
   return (
     <>
        <div className="font-custom-h flex flex-col items-center justify-center text-center">
-        <h1 className="text-3xl transform transition-all duration-300 hover:scale-110 hover:text-black ">
+        <h1 className="text-3xl transform transition-all duration-300 hover:scale-105 hover:text-black ">
           Dark Feminine Core
         </h1>
         <p className="text-slate-900 pt-2 px-3 text-lg break-words max-w-2xl">
