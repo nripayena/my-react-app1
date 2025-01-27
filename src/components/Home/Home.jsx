@@ -14,7 +14,7 @@ function Home() {
       return (
         <>
        
-        <div className="bg-fixed bg-cover bg-center h-screen " style={{ backgroundImage: 'url(/public/HomeImg/background4.jpg)' }}>
+        <div className="bg-fixed bg-cover bg-center h-screen " style={{ backgroundImage: 'url(/HomeImg/background4.jpg)' }}>
           <div className="h-full overflow-y-auto absolute inset-0 bg-black bg-opacity-20">
             <div className="h-screen">
              
